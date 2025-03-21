@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/datas/developpement-web.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="mail.js" defer></script>
+    <title>Madrix Landing Page | Welcome</title>
+</head>
+
+<body>
+    <!-- MENU NAVIGATION -->
+    <nav>
+        <div class="logo">Madrix/<span class="dev">Dev</span></div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menuHam">
+            <span class="icone one"></span
+            <span class="icone two"></span>
+            <span class="icone three"></span>
+        </div>
+    </nav>
+    <!-- PETITE CARTE DE PRESENTATION -->
+    <div class="container">
+        <div class="textSide">
+            <h1><span>Hi</span>, I'm <span class="name">Madrix</span></h1>
+            <h3>I'm a <span class="anim"> Web Developer</span></h3>
+            <button><a href="#contact">Contact me</a></button>
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <h1>About me</h1>
+        <h2>
+            "Welcome to my portfolio! I am a passionate web developer looking for new opportunities to apply my skills
+            and passion."<p class="paraStyle">🚀 Bring your ideas to life with a modern, fast, and tailor-made website.
+                Let's turn your
+                vision into digital reality! 💻✨"</p>
+
+            Feel free to contact me!:)
+        </h2>
+    </div>
+    <div id="skill" class="skill">
+        <h1>My skills</h1>
+
+        <div class="wrapper">
+            <div class="card">
+                <img src="datas/css.png" alt="CSS" title="CSS">
+                <p class="paraCard">
+                    HTML/CSS
+                </p>
+            </div>
+            <div class="card"><img src="datas/javascript.png" alt="JavaScript" title="JavaScript">
+                <p class="paraCard">
+                    JavaScript
+                </p>
+            </div>
+            <div class="card"><img src="datas/data-processing.png" alt="jQuery" title="jQuery">
+                <p class="paraCard">
+                    Librairie jQuery
+                </p>
+            </div>
+            <div class="card"><img src="datas/ux-design.png" alt="UX/UI Design" title="UX/UI Design">
+                <p class="paraCard">
+                    UX/UI Design
+                </p>
+            </div>
+            <div class="card"><img src="datas/wordpress.png" alt="WordPress" title="WordPress">
+                <p class="paraCard">
+                    CMS/WORDPRESS
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FORMULAIRE DE CONTACT -->
+    <div class="contact" id="contact">
+        <h2>Contact me</h2>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+            <input type="text" name="name" placeholder="Name" autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" cols="50" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Tous droits réservés !</p>
+        <hr>
+        <div class="social_media">
+            <a href="https://www.facebook.com/profile.php?id=61552913391847"><img src="datas/facebook-logo-24.png"
+                    alt="facebook"></a>
+            <a href="+261349481769" target="_blank"><img src="datas/whatsapp-logo-24.png" alt="whatsApp"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
